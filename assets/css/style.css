@@ -1,0 +1,19 @@
+@import url('card.css');
+@import url('responsividade.css');
+
+:root {
+    --azul_card: hsl(244, 38%, 16%);
+    --azul_fundo: hsl(233, 47%, 7%);
+    --branco: hsl(0, 0%, 100%);
+    --branco_paragrafo: hsla(0, 0%, 100%, 0.75);
+    --branco_topicos: hsla(0, 0%, 100%, 0.6);
+    --violeta: hsl(277, 64%, 61%);
+
+    --fonte_lexend_deca: 'Lexend Deca', sans-serif;
+    --fonte_inter: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--azul_fundo);
+    font-family: var(--fonte_inter);
+}
